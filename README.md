@@ -1,4 +1,9 @@
 ## Foundry
+ 
+ **REWRITING SOLIDITY IN THE LATEST VERSION AND IN FOUNDRY  .**
+ ```
+ $ upgrades from solidity v0.5.16 to 0.8.19
+ ```
 
 **Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
 
