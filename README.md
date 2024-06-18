@@ -2,7 +2,9 @@
  
  **REWRITING SOLIDITY IN THE LATEST VERSION AND IN FOUNDRY  .**
  ```
- $ upgrades from solidity v0.5.16 to 0.8.19
+ $ upgrades from solidity v0.5.16 to 0.8.19.
+
+ EDITED MINT() in UniswapV2ERC20.sol
  ```
 
 **Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
@@ -69,3 +71,16 @@ $ forge --help
 $ anvil --help
 $ cast --help
 ```
+
+Contracts and functions
+
+- Factory()
+A smart contract that deploys a unique smart contract for any ERC20/ERC20 trading pair.
+
+Pair
+A smart contract deployed from the Uniswap V2 Factory that enables trading between two ERC20 tokens.
+
+# REPLACING ALL REQUIRE WITH CUSTOM ERRORS.
+ ## First, More Gas efficient
+ ## Secondly, makes it readable and i learn more 
+
